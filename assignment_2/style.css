@@ -1,0 +1,91 @@
+header{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size:15px;
+      background: #1d1dc1b9;
+      padding: 20px;
+      font-weight: 600;
+}
+header img {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #00f5ff;
+    box-shadow: 0 0 20px #00f5ff;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e2f;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    background: #29294d;
+    padding: 20px;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+header p {
+    max-width: 400px;
+    margin: auto;
+}
+
+/* INFO */
+.info {
+    margin: 20px;
+}
+
+/* INPUT */
+.todo-container {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #ff4d6d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff1f4b;
+}
+
+/* TASK LIST */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #333;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
